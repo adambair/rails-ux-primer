@@ -1,0 +1,52 @@
+= Rails UX Primer
+
+== Setup/Prerequisites 
+
+  - RVM
+  
+    bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+
+  - Ruby 1.9.2
+
+    rvm install 1.9.2
+    rvm use 1.9.2 --default
+
+  - Rails 3.1
+
+    gem install rails
+
+  - Git
+
+  Macports: 
+
+    port install git-core
+
+  Brew:
+
+    brew install git
+
+  - Grab the Linkr (demo app)
+
+    git clone git://github.com/adambair/linkr.git
+
+  http://linkrapp.herokuapp.com
+
+== Your first application
+
+  We'll create a fresh Rails application and go through an introduction to the basic structure of an app.
+
+    rails new markr
+    
+
+  - Ditch the welcome page
+
+    rm public/index.html
+
+  - 
+
+== Create a scaffold
+
+    rails generate bookmarks title:string url:string
+
+  Review the files that were created
+
