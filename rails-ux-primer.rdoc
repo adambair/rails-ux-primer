@@ -2,51 +2,48 @@
 
 == Setup/Prerequisites 
 
-  - RVM
+- RVM
   
-    bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+  bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
 
-  - Ruby 1.9.2
+- Ruby 1.9.2
 
-    rvm install 1.9.2
-    rvm use 1.9.2 --default
+  rvm install 1.9.2
+  rvm use 1.9.2 --default
 
-  - Rails 3.1
+- Rails 3.1
 
-    gem install rails
+  gem install rails
 
-  - Git
+- Git
 
-  Macports: 
+Macports: 
 
-    port install git-core
+  port install git-core
 
-  Brew:
+Brew:
 
-    brew install git
+  brew install git
 
-  - Grab the Linkr (demo app)
+- Grab the Linkr (demo app)
 
-    git clone git://github.com/adambair/linkr.git
+  git clone git://github.com/adambair/linkr.git
 
-  http://linkrapp.herokuapp.com
+http://linkrapp.herokuapp.com
 
 == Your first application
 
-  We'll create a fresh Rails application and go through an introduction to the basic structure of an app.
+We'll create a fresh Rails application and go through an introduction to the basic structure of an app.
 
-    rails new markr
-    
+  rails new markr
+  
+- Ditch the welcome page
 
-  - Ditch the welcome page
-
-    rm public/index.html
-
-  - 
+  rm public/index.html
 
 == Create a scaffold
 
-    rails generate bookmarks title:string url:string
+  rails generate bookmarks title:string url:string
 
-  Review the files that were created
+Review the files that were created
 
