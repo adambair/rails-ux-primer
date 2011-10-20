@@ -1,0 +1,3 @@
+# UX Rails Primer
+
+The UX Rails Primer is an open-ended workshop to introduce the Rails front-end stack to UX/UI/IA designers. 
