@@ -1,0 +1,9 @@
+<h1>Editing bookmark</h1>
+
+<%= formatted_bookmark(@bookmark) %>
+<%= render "formatted_item", {:bookmark => @bookmark} %>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @bookmark %> |
+<%= link_to 'Back', bookmarks_path %>

@@ -1,0 +1,20 @@
+best practices - jake?
+common pattern for pulling data into your views
+
+testing - ted?
+  -bdd?/unit?/aspects?acceptance/integration
+
+helpers!
+
+
+coffeescript primer
+coffee - javi?
+object creation, prototyping, etc
+
+
+Test Driven Development
+  unit          -> one model 
+  functional    -> one controller
+  integration   -> full stack (controller/model - sometimes view)
+
+Behavior driven
